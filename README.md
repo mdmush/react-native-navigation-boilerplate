@@ -6,3 +6,11 @@ Usage:
   cd Test
   react-native run-android
 ```
+
+
+For Android Logs Without **Debug JS Remotely**:
+
+```
+adb logcat *:S ReactNative:V ReactNativeJS:V
+
+```
